@@ -1,0 +1,5 @@
+rule tests
+  command = echo hello world
+  pool    = console
+
+build tests: tests
